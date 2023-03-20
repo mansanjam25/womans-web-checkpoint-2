@@ -54,14 +54,14 @@
       <!-- interpretation of equity from https://everydayfeminism.com/2014/09/equality-is-not-enough/ -->
       <script>
         var flipboxes = document.getElementsByClassName("flipbox");
-  
+
         for (var i = 0; i < flipboxes.length; i++) {
-            flipboxes[i].addEventListener("touchstart", function() {
+            flipboxes[i].addEventListener("click", function() {
                 this.querySelector(".flipbox-inner").classList.add("touchstart");
             });
         }
       </script>
-      
+
       <dl>
         <div class = "flipcards">
           <div class = "flipbox">
